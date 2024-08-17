@@ -1,4 +1,4 @@
-#script by @venomXcrazy
+#script by @The_Fiend102
 
 import telebot
 import subprocess
@@ -358,7 +358,7 @@ def show_help(message):
 💥 /admincmd : Shows All Admin Commands.
 
 Buy From :- @The_Fiend102
-Official Channel :- https://t.me/
+Official Channel :- https://t.me/@The_Fiend102
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -385,7 +385,7 @@ def welcome_rules(message):
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
-3. MAKE SURE YOU JOINED https://t.me/ OTHERWISE NOT WORK
+3. MAKE SURE YOU JOINED https://t.me/@The_Fiend102 OTHERWISE NOT WORK
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
 
